@@ -1,3 +1,3 @@
 module.exports = {
-  path: './resources/assets/js/components'
+  path: './resources/assets/js'
 }

@@ -32,10 +32,12 @@ Unite.beforeEachTest (() => {
   wrapper = Unite.$mount($component)
 })
 
+/** test */
 Unite.test('It defaults the count to zero', () => {
   expect(wrapper.vm.count).toBe(0)
 })
 
+/** test */
 Unite.test('It decrements the current count', () => {
   wrapper.setData({ count: 7 })
 
